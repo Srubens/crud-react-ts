@@ -1,8 +1,9 @@
-import Cliente from "../core/Cliente"
+import Cliente from "@core/Cliente"
 import { useState, useEffect } from "react"
-import ClienteRepositorio from "../core/ClienteRepositorio"
-import ColecaoCliente from "../backend/db/ColecaoCliente"
-import useTabelaOuForm from "./useTabelaouForm"
+import ClienteRepositorio from "@core/ClienteRepositorio"
+import ColecaoCliente from "@backend/db/ColecaoCliente"
+import useTabelaOuForm from "./useTabelaOuForm"
+
 
 
 export default function useClientes(){

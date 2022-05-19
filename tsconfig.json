@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "target": "ES2016",
     "lib": [
       "dom",
@@ -17,7 +18,17 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "paths": {
+      "@components":["src/components"],
+      "@components/*":["src/components/*"],
+      "@hooks":["src/hooks"],
+      "@hooks/*":["src/hooks/*"],
+      "@core":["src/core"],
+      "@core/*":["src/core/*"],
+      "@backend":["src/backend"],
+      "@backend/*":["src/backend/*"]
+    }
   },
   "include": [
     "next-env.d.ts",

@@ -1,8 +1,8 @@
-import Layout from '../components/Layout'
-import Tabela from '../components/Tabela'
-import Botao from '../components/Botao'
-import Formulario from '../components/Formulario'
-import useClientes from '../hooks/useClientes'
+import Layout from "@components/Layout"
+import Tabela from "@components/Tabela"
+import Botao from "@components/Botao"
+import Formulario from "@components/Formulario"
+import useClientes from "@hooks/useClientes"
 
 const Home = () => {
 
