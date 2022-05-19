@@ -19,6 +19,7 @@ const Home = () => {
 
   return(
     <div className={`
+      bg_home
       flex h-screen justify-center items-center
       bg-gradient-to-r from-blue-500 to-purple-500
       text-white

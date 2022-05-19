@@ -64,6 +64,7 @@ const Tabela = (props:TabelaProps) => {
 
     return(
       <table className={`
+         table-auto
           w-full rounded-xl overflow-hidden
         `} >
           <thead className={`
